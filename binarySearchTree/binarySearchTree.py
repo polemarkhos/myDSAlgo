@@ -9,7 +9,7 @@ class Solution:
         Returns:
             True if the tree is a valid BST, False otherwise.
         """
-        return self._validate(root, float('-inf'), float('inf'))
+        return self._validate(root, float("-inf"), float("inf"))
 
     def _validate(self, node: TreeNode, lower_bound: float, upper_bound: float) -> bool:
         """

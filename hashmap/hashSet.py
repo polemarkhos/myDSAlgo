@@ -1,5 +1,4 @@
 class myHashSet:
-
     def __init__(self):
         self.buckets = [[] for _ in range(1000)]
 

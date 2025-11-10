@@ -4,6 +4,7 @@
 # node by setting var head to head.next, which is the pointer to the next node
 # in the list. It continues to do this until there is no next node.
 
+
 def printLinkedList(head):
     while head:
         print(head.data)

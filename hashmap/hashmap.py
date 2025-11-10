@@ -1,5 +1,4 @@
 class myHashMap:
-
     def __init__(self):
         self.buckets = [[] for _ in range(1000)]
 
@@ -16,9 +15,8 @@ class myHashMap:
             return self.buckets[bucket_index][1]
         else:
             return -1
-        
+
     def remove(self, key: int) -> None:
         bucket_index = key % 1000
         if key in self.buckets[bucket_index]:
             self.buckets[bucket_index] = []
-
