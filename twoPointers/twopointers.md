@@ -1,0 +1,2 @@
+### Two Pointer Technique
+The two pointer technique is a way of using two indices, rather than the standard one, to traverse a data structure faster and more efficiently. Usually these are sorted data structures, and is used for solving pair, subarray or sliding window problems. For example, finding valid palindromes, finding longest substrings without repeating characters and so on.
