@@ -4,6 +4,7 @@
 # Since the array is sorted, if the sum total of a plus the two numbers pointed either side is greater than zero, we decrement the right side pointer
 # likewise if its below zero we increment the left side pointer
 
+
 def threeSum(self, nums: List[int]) -> List[List[int]]:
     res = []
     nums.sort()
